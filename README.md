@@ -33,14 +33,14 @@ python -m pytest tests/ -v
 
 ```
 techflow-tasks/
-├── tasks.py               # sistema principal
-├── README.md              # este arquivo
-├── .gitignore
-├── tests/
-│   └── test_tasks.py      # testes automatizados
-└── .github/
-    └── workflows/
-        └── ci.yml         # pipeline de CI com GitHub Actions
+ tasks.py               # sistema principal
+ README.md              # este arquivo
+ .gitignore
+ tests/
+ test_tasks.py      # testes automatizados
+.github/
+ workflows/
+ ci.yml         # pipeline de CI com GitHub Actions
 ```
 
 ## Funcionalidades
@@ -59,4 +59,4 @@ No início o sistema não salvava nada — as tarefas sumiam ao fechar o program
 ## Autor
 
 João — [@Jao-20](https://github.com/Jao-20)  
-Disciplina de Engenharia de Software — UniFECAF
+Disciplina de Engenharia (ADS) UniFECAF
